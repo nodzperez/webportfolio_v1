@@ -6,7 +6,23 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    maxWidth: {
+      contained: "1440px",
+      contentContainer: "1140px",
+      containerSmall: "1024px",
+      containerxs: "768px",
+    },
     extend: {
+      screens: {
+        xs: "320px",
+        sm: "375px",
+        sml: "500px",
+        md: "667px",
+        mdl: "768px",
+        lg: "960px",
+        lgl: "1024px",
+        xl: "1280px",
+      },
       fontFamily: ["Montserrat", "sans-serif"],
       titleFont: ["Inter", "sans-serif"],
     },
