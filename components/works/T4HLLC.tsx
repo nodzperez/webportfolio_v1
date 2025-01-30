@@ -12,7 +12,11 @@ function T4HLLC() {
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
         Graphic Artist
-        <span className="text-textGreen tracking-wide">@ T4H LLC</span>
+        <span className="text-textGreen tracking-wide">
+          <a href="https://www.trinity4health.com" target="_blank">
+            @ T4H LLC
+          </a>
+        </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
         May 2023 - August 2023

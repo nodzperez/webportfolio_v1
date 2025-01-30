@@ -32,10 +32,10 @@ function Banner() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I'm an Interactive Design & Technology Student with a ## years of
+        I&apos;m an Interactive Design & Technology Student with a ## years of
         experience in Graphic Design and Web Development. I have a strong
         foundation in front-end development and am skilled in creating
-        user-friendly and responsive websites using HTML, CSS and the likes.{""}
+        user-friendly and responsive websites using HTML, CSS and the likes.
         <a href="#" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
