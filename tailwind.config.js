@@ -31,9 +31,9 @@ module.exports = {
         navbarShadow: "0 10px 30px -10px rgba(2, 12, 27, 0.7)",
       },
       colors: {
-        bodyColor: "#0A192F",
+        bodyColor: "#022F3C",
         textGreen: "#64ffda",
-        textLight: "#ccd6f6",
+        textLight: "#e5e5e5",
         textDark: "#8892b0",
         hoverColor: "rgba(100, 255, 218, 0.1)",
       },
