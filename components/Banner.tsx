@@ -11,7 +11,7 @@ function Banner() {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.6 }}
-        className="text-lg font-titleFont tracking-wide text-textGreen"
+        className="text-lg font-navFont tracking-wide text-textGreen"
       >
         Hi, my name is
       </motion.h3>
@@ -19,10 +19,10 @@ function Banner() {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col"
+        className="text-4xl lgl:text-6xl font-titleFont font-extrabold flex flex-col"
       >
         Nodz Perez.
-        <span className="text-textDark mt-2 lgl:mt-4">
+        <span className="text-textDark font-bold mt-2 lgl:mt-4">
           I build and design shit.
         </span>
       </motion.h1>
