@@ -2,7 +2,7 @@ import React from "react";
 
 function RightSide() {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-textLight">
+    <div className="w-full h-full flex flex-col items-center justify-end gap-6 text-textLight font-navFont">
       <a href="mailto:nodnylperez@gmail.com">
         <p className="text-sm rotate-90 w-72 tracking-wide text-textGreen">
           nodnylperez@gmail.com
