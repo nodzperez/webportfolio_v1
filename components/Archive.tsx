@@ -16,7 +16,7 @@ const Archive = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Title Here"
+          title="Personal Branding"
           des="Lorem ipsum ipsum something"
           listItem={["Software", "Software", "Software"]}
           link="#"

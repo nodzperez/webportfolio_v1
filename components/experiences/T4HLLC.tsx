@@ -18,8 +18,8 @@ function T4HLLC() {
           </a>
         </span>
       </h3>
-      <p className="text-sm mt-1 font-medium text-textDark">
-        May 2023 - August 2023
+      <p className="text-sm mt-1 font-medium text-textDark font-navFont">
+        May - August 2023
       </p>
       <ul className="mt-6 flex flex-col gap-3">
         <li className="text-base flex gap-2 text-textDark">
