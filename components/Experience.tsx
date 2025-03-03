@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import SectionTitle from "./SectionTitle";
-import T4HLLC from "./works/T4HLLC";
-import SHS from "./works/SHS";
-import FilCa from "./works/FilCa";
+import T4HLLC from "./experiences/T4HLLC";
+import SHS from "./experiences/SHS";
+import FilCa from "./experiences/FilCa";
 
 const Experience = () => {
   const [workT4HLLC, setWorkT4HLLC] = useState(true);

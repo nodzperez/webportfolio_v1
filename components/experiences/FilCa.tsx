@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { IoMdArrowDropright } from "react-icons/io";
 
-function T4HLLC() {
+function FilCa() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,11 +11,9 @@ function T4HLLC() {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Graphic Artist
+        Head Technical Engineer
         <span className="text-textGreen tracking-wide">
-          <a href="https://www.trinity4health.com" target="_blank">
-            @ T4H LLC
-          </a>
+          @ FilCa Admixture Corp.
         </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
@@ -26,23 +24,35 @@ function T4HLLC() {
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
+          Developed and customized concrete mix designs, ensuring compliance
+          with client requirements and quality standards.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
+          Led a technical team to enhance production processes, improving
+          product consistency and quality.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
+          Worked closely with clients, providing technical support and
+          recommendations to optimize their construction projects’ efficiency
+          and longevity.
+        </li>
+        <li className="text-base flex gap-2 text-textDark">
+          <span className="text-textGreen mt-1">
+            <IoMdArrowDropright />
+          </span>
+          Developed reports and technical documentation for internal and client
+          use, ensuring clear communication of product specifications and
+          performance data.
         </li>
       </ul>
     </motion.div>
   );
 }
 
-export default T4HLLC;
+export default FilCa;

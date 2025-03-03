@@ -24,13 +24,15 @@ function SHS() {
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
+          Produced multimedia content for clients, consistently meeting
+          deadlines and maintaining high standards.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
+          Developed client proposals and whitepapers, communicating technical
+          concepts clearly and effectively.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">

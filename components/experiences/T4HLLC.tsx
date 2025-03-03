@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import { IoMdArrowDropright } from "react-icons/io";
 
-function FilCa() {
+function T4HLLC() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -11,9 +11,11 @@ function FilCa() {
       className="w-full"
     >
       <h3 className="flex gap-1 font-medium text-xl font-titleFont">
-        Head Technical Engineer
+        Graphic Artist
         <span className="text-textGreen tracking-wide">
-          @ FilCa Admixture Corp.
+          <a href="https://www.trinity4health.com" target="_blank">
+            @ T4H LLC
+          </a>
         </span>
       </h3>
       <p className="text-sm mt-1 font-medium text-textDark">
@@ -24,23 +26,19 @@ function FilCa() {
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
+          Created captivating visuals for marketing campaigns, contributing to
+          cohesive brand engagement across social media channels.
         </li>
         <li className="text-base flex gap-2 text-textDark">
           <span className="text-textGreen mt-1">
             <IoMdArrowDropright />
           </span>
-          Something here, description of the job
-        </li>
-        <li className="text-base flex gap-2 text-textDark">
-          <span className="text-textGreen mt-1">
-            <IoMdArrowDropright />
-          </span>
-          Something here, description of the job
+          Worked collaboratively with the marketing team to design materials
+          that increased audience interaction.
         </li>
       </ul>
     </motion.div>
   );
 }
 
-export default FilCa;
+export default T4HLLC;
