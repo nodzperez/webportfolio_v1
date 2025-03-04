@@ -33,7 +33,7 @@ function About() {
             projects.
           </p>
           <p>Here are a few technologies I’ve been working with recently:</p>
-          <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
+          <ul className="max-w-[450px] text-sm font-navFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <IoMdArrowDropright />

@@ -40,7 +40,7 @@ const Experience = () => {
               workT4HLLC
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
-            }  border-l-2 bg-transparent hover:bg-[#01242e] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            }  border-l-2 bg-transparent hover:bg-[#01242e] py-3 text-sm cursor-pointer duration-300 px-8 font-navFont font-medium`}
           >
             T4H
           </li>
@@ -50,7 +50,7 @@ const Experience = () => {
               workfilCa
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#01242e] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#01242e] py-3 text-sm cursor-pointer duration-300 px-8 font-navFont font-medium`}
           >
             FilCa
           </li>
@@ -60,7 +60,7 @@ const Experience = () => {
               workSHS
                 ? "border-l-textGreen text-textGreen"
                 : "border-l-textDark text-textDark"
-            } border-l-2 bg-transparent hover:bg-[#01242e] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+            } border-l-2 bg-transparent hover:bg-[#01242e] py-3 text-sm cursor-pointer duration-300 px-8 font-navFont font-medium`}
           >
             SHS
           </li>

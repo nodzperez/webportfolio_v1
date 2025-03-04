@@ -10,16 +10,16 @@ const Archive = () => {
         <h2 className="text-3xl font-titleFont font-semibold">
           Other Projects
         </h2>
-        <p className="text-sm font-titleFont text-textGreen">
+        <p className="text-sm font-navFont mt-2 text-textGreen">
           view the archive
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
           title="Personal Branding"
-          des="Lorem ipsum ipsum something"
-          listItem={["Software", "Software", "Software"]}
-          link="#"
+          des="A cohesive visual identity reflecting my design style, including a custom logo, color palette, and typography for both digital and print."
+          listItem={["Illustrator", "Photoshop", "InDesign"]}
+          link="https://www.behance.net/gallery/219805835/Nodz-Personal-Branding"
         />
         <ArchiveCard
           title="Title Here"

@@ -23,7 +23,7 @@ function Banner() {
       >
         Nodz Perez.
         <span className="text-textDark font-bold mt-2 lgl:mt-4">
-          I build and design shit.
+          I build and design stuff.
         </span>
       </motion.h1>
       <motion.p
@@ -32,11 +32,11 @@ function Banner() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className="text-base md:max-w-[650px] text-textDark font-medium"
       >
-        I&apos;m an Interactive Design & Technology Student with a ## years of
-        experience in Graphic Design and Web Development. I have a strong
-        foundation in front-end development and am skilled in creating
-        user-friendly and responsive websites using HTML, CSS and the likes.
-        <a href="#" target="_blank">
+        I&apos;m an Interactive Design & Technology Student with experience in
+        Graphic Design and Web Development. I have a strong foundation in
+        front-end development and am skilled in creating user-friendly and
+        responsive websites using HTML, CSS and the likes.
+        <a href="https://www.linkedin.com/in/nodnyl-perez/" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
             <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
