@@ -22,27 +22,27 @@ const Archive = () => {
           link="https://www.behance.net/gallery/219805835/Nodz-Personal-Branding"
         />
         <ArchiveCard
-          title="Title Here"
+          title="Tropezon's Website Redesign"
           des="Lorem ipsum ipsum something"
-          listItem={["Software", "Software", "Software"]}
+          listItem={["Figma", "", ""]}
           link="#"
         />
         <ArchiveCard
-          title="Title Here"
+          title="Blender Animation"
           des="Lorem ipsum ipsum something"
-          listItem={["Software", "Software", "Software"]}
+          listItem={["Blender", "Premiere Pro", ""]}
           link="#"
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
-          title="Title Here"
+          title="Binge Branding"
           des="Lorem ipsum ipsum something"
-          listItem={["Software", "Software", "Software"]}
-          link="#"
+          listItem={["Photoshop", "Illustrator", ""]}
+          link="https://www.behance.net/gallery/219805507/Binge-Brand-Guidelines"
         />
         <ArchiveCard
-          title="Title Here"
+          title="Binge Social Media Guidelines"
           des="Lorem ipsum ipsum something"
           listItem={["Software", "Software", "Software"]}
           link="#"
@@ -54,7 +54,7 @@ const Archive = () => {
           link="#"
         />
 
-        {showMore && (
+        {/* {showMore && (
           <>
             <motion.div
               initial={{ opacity: 0 }}
@@ -93,9 +93,9 @@ const Archive = () => {
               />
             </motion.div>
           </>
-        )}
+        )} */}
       </div>
-      <div className="mt-12 flex items-center justify-center">
+      {/* <div className="mt-12 flex items-center justify-center">
         {showMore ? (
           <button
             onClick={() => setShowMore(false)}
@@ -111,7 +111,7 @@ const Archive = () => {
             Show More
           </button>
         )}
-      </div>
+      </div> */}
     </div>
   );
 };

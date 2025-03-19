@@ -11,6 +11,7 @@ module.exports = {
       contentContainer: "1000px",
       containerSmall: "1024px",
       containerxs: "768px",
+      contianerModal: "450px",
     },
     extend: {
       screens: {
@@ -37,6 +38,7 @@ module.exports = {
         textLight: "#e5e5e5",
         textDark: "#8892b0",
         hoverColor: "rgba(100, 255, 218, 0.1)",
+        bodyHover: "#085970",
       },
     },
   },
