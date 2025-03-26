@@ -36,21 +36,23 @@ function Banner() {
         Graphic Design and Web Development. I have a strong foundation in
         front-end development and am skilled in creating user-friendly and
         responsive websites using HTML, CSS and the likes.
-        <a href="https://www.linkedin.com/in/nodnyl-perez/" target="_blank">
+        {/* <a href="https://www.linkedin.com/in/nodnyl-perez/" target="_blank">
           <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn More
             <span className="absolute w-full h-[1px] bg-textGreen left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
-        </a>
+        </a> */}
       </motion.p>
-      <motion.button
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.5, delay: 0.9 }}
-        className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
-      >
-        Check out my works!
-      </motion.button>
+      <a href="https://linkedin.com/nodnyl-perez" target="_blank">
+        <motion.button
+          initial={{ y: 10, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.5, delay: 0.9 }}
+          className="w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300"
+        >
+          Learn more about me!
+        </motion.button>
+      </a>
     </section>
   );
 }
