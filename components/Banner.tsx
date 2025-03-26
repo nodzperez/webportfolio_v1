@@ -43,7 +43,7 @@ function Banner() {
           </span>
         </a> */}
       </motion.p>
-      <a href="https://linkedin.com/nodnyl-perez" target="_blank">
+      <a href="https://linkedin.com/in/nodnyl-perez" target="_blank">
         <motion.button
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
