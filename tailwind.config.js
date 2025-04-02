@@ -11,7 +11,7 @@ module.exports = {
       contentContainer: "1000px",
       containerSmall: "1024px",
       containerxs: "768px",
-      contianerModal: "450px",
+      containerModal: "450px",
     },
     extend: {
       screens: {
